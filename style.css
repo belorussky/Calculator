@@ -1,0 +1,110 @@
+* {
+	box-sizing: border-box;
+}
+.container {
+	width: 60%;
+	margin: auto;
+}
+form {
+	width: 60%;
+	margin: auto;
+	border: 1px solid #ccc;
+	background-color: #787878;
+}
+input {
+	width: 60%;
+	margin: 20px;
+	padding: 10px;
+}
+.answer_block {
+	width: 100%;
+	margin: 10px 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.ans {
+	width: 50%;
+	height: 40px;
+	display: inline-block;
+	margin: 10px 20px;
+	padding: 10px;
+	background-color: #fff;
+}
+.an {
+	width: 12%;
+	height: 40px;
+	display: inline-block;
+	margin: 10px 5px;
+	border: 1px solid #ccc;
+	font-size: 1em;
+	background-color: #fff;
+	line-height: 40px;
+	color: #000;
+	cursor: pointer;
+	text-align: center;
+}
+.an input {
+	width: 100%;
+	margin: 0;
+	padding: 1px;
+	border: 0;
+	background-color: #fff;
+	cursor: pointer;
+
+}
+.an a {
+	text-decoration: none;
+	color: #000;
+}
+.block_number{
+	width: 100%;
+	padding: 10px;
+	font-size: 20px;
+}
+.numbers {
+	width: 78%;
+	display: inline-block;
+	text-align: center;
+}
+.num {
+	width: 27%;
+	margin: 10px 0;
+	padding: 5px;
+	display: inline-block;
+	font-size: 1em;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	color: #000;
+	float: left;
+	cursor: pointer;
+}
+.num:hover {
+	background-color: #ccc;
+	color: #fff;
+}
+.block {
+	width: 19%;
+	display: inline-block;
+	vertical-align: top;
+}
+.block label {
+	width: 100%;
+	color: #fff;
+	cursor: pointer;
+}
+.block label input {
+	width: 25%;
+	cursor: pointer;
+}
+.additional_functions {
+	width: 100%;
+	margin: 0;
+	padding: 5px;
+	border-top: 1px solid #ccc;
+}
+.additional_functions label {
+	display: inline-block;
+	width: 15%;
+	text-align: center;
+	color: #ccc;
+}
